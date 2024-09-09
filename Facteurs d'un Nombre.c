@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-int main() {
+int main(){
     int n;
     
     printf("Entrez un nombre entier positif : ");
     scanf("%d", &n);
 
-    if (n <= 0) {
+    if (n <= 0){
         printf("Veuillez entrer un nombre entier positif.\n");
         return 1;
     }
